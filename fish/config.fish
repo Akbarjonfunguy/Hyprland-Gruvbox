@@ -1,0 +1,20 @@
+if status is-interactive
+    set fish_greeting ""
+    starship init fish | source
+    alias c="clear"
+    alias n="nvim"
+    alias v="vim"
+    alias fetch="fastfetch --logo arch2"
+    alias gc="git clone"
+    alias i="yay -S"
+    alias s="yay -Ss"
+    alias u="yay -Syu"
+    alias r="yay -R"
+    alias rr="yay -Rns"
+    alias phonk="mpv --loop-playlist --no-audio-display ~/Music/phonk/"
+    alias py="python"
+    alias vim="nvim"
+    alias toipe="./.cargo/bin/toipe"
+    alias rm="rm -rf"
+    alias cp="cp -r"
+end
